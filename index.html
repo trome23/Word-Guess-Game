@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Word Guess Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Francois+One" rel="stylesheet">
+</head>
+<body>
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <div class="row">
+                <div class ="col-md-8">
+                    <img src="assets\images\A-Honnod.jpg" class="img-thumbnail">
+                    <div class="center-text">
+                        <h1 class="title-header">Word Guess Game</h1>
+                        <p class="lead"><strong>Click START to begin!</strong></p>
+                    </div>
+                </div>
+                <div class = "col-md-4">
+                    <div id = game>
+                        <button type="button" id= "startButton" class="myBtn btn-primary btn-lg btn-block">START</button>
+                        <p id = "directions-text">Mystery Word: _ _ _ _ _</p>
+                        <p id = "guessesLeft-text">Guesses Left: </p>
+                        <p id = "guessesSoFar-text">Your Guesses so far: </p>
+                        <p id = "wins-text">Wins: 0</p> 
+                        <p id = "losses-text">Losses: 0</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./assets/javascript/game.js"></script>
+</body>
+</html>
