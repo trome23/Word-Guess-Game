@@ -4,16 +4,14 @@
   right: 60px;
   padding-left: 20px;
   padding-right: 20px;
-  color: rgb(124, 158, 69);
-    
+  color: rgb(124, 158, 69);  
   }
-  #directions-text, #wins-text, #losses-text, #guessesLeft-text, #guessesSoFar-text {
+
+  #placeholders, #wins, #losses, #guesses-left, #guessed-letters {
     color: rgb(53, 57, 73);
     font-family: 'Francois One', sans-serif;
-
   }
 
-  #directions-text {
+  #mysteryWord {
     font-size: 30px;
-    
   }

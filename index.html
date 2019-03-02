@@ -21,15 +21,23 @@
                     </div>
                 </div>
                 <div class = "col-md-4">
-                    <div id = game>
-                        <button type="button" id= "startButton" class="myBtn btn-primary btn-lg btn-block">START</button>
-                        <p id = "directions-text">Mystery Word: _ _ _ _ _</p>
-                        <p id = "guessesLeft-text">Guesses Left: </p>
-                        <p id = "guessesSoFar-text">Your Guesses so far: </p>
-                        <p id = "wins-text">Wins: 0</p> 
-                        <p id = "losses-text">Losses: 0</p>
-                    </div>
-
+                    <button type="button" id= "start-button" class="myBtn btn-primary btn-lg btn-block">START</button>
+                    <br>
+                    <h4>Mystery Climbing Word: </h4>
+                    <h4 id="placeholders"></h4>                    
+                    <br>
+                    <p>
+                        Guesses Left: <span id = "guesses-left">0</span>
+                    </p>
+                    <p>
+                        Incorrect Guesses: <span id = "guessed-letters"></span>
+                    </p>
+                    <p>
+                        Wins: <span id = "wins"></span>
+                    </p> 
+                    <p>
+                        Losses: <span id = "losses"></span>
+                    </p> 
                 </div>
             </div>
         </div>
